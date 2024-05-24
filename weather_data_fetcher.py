@@ -1,14 +1,8 @@
 x=input('Input city: ')
 
 import requests
-
-# Replace 'YOUR_API_KEY' with your actual API key from OpenWeatherMap
-API_KEY = '6c56d510f76d209a14f2d6082683e152'
-
-# Define the base URL for the OpenWeatherMap API
+API_KEY = 'YOUR_API_KEY'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
-
-# Specify the city you want to get the weather for
 city = x
 
 # Make the GET request to the OpenWeatherMap API
